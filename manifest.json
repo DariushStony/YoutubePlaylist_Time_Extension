@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Playlist time",
+    "description": "With the help of this extension, you will find the duration of a playlist on YouTube",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "./Images/AD_logo_round.png",
+            "32": "./Images/AD_logo_round.png",
+            "48": "./Images/AD_logo_round.png",
+            "128": "./Images/AD_logo_round.png"
+        }
+    },
+    "icons": {
+        "16": "./Images/AD_logo_round.png",
+        "32": "./Images/AD_logo_round.png",
+        "48": "./Images/AD_logo_round.png",
+        "128": "./Images/AD_logo_round.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/playlist?list=*"
+            ],
+            "js": [
+                "./content_scripts/content.js"
+            ]
+        }
+    ]
+}
