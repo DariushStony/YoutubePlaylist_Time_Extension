@@ -8,17 +8,17 @@
     },
     "action": {
         "default_icon": {
-            "16": "./Images/AD_logo_round.png",
-            "32": "./Images/AD_logo_round.png",
-            "48": "./Images/AD_logo_round.png",
-            "128": "./Images/AD_logo_round.png"
+            "16": "./Images/get_started16.png",
+            "32": "./Images/get_started32.png",
+            "48": "./Images/get_started48.png",
+            "128": "./Images/get_started128.png"
         }
     },
     "icons": {
-        "16": "./Images/AD_logo_round.png",
-        "32": "./Images/AD_logo_round.png",
-        "48": "./Images/AD_logo_round.png",
-        "128": "./Images/AD_logo_round.png"
+        "16": "./Images/get_started16.png",
+        "32": "./Images/get_started32.png",
+        "48": "./Images/get_started48.png",
+        "128": "./Images/get_started128.png"
     },
     "content_scripts": [
         {
